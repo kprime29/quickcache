@@ -1,0 +1,38 @@
+{
+  "name": "written-assignment-quickcache",
+  "version": "1.0.0",
+  "description": "A tool for caching smart contract ABIs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "yarn run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quiknode-labs/written-assignment-quickcache.git"
+  },
+  "author": "QuickNode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quiknode-labs/written-assignment-quickcache/issues"
+  },
+  "homepage": "https://github.com/quiknode-labs/written-assignment-quickcache#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@ethersproject/address": "^5.5.0",
+    "@ethersproject/contracts": "^5.5.0",
+    "@ethersproject/networks": "^5.5.0",
+    "@ethersproject/providers": "^5.5.0",
+    "@ethersproject/solidity": "^5.5.0",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.15.0",
+    "@tsconfig/node16": "^1.0.2",
+    "@types/supertest": "^2.0.11",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3"
+  },
+  "keywords": []
+}
